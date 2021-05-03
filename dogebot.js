@@ -36,7 +36,7 @@ const initFunction = async() => {
         } else
         {
             await orderFunction('USDT', 'HBAR');
-            console.log('Returning to HBAR, all hail Footfag.');
+            console.log('Returning to HBAR.');
             data.cycle_completed = true;
             handleYaml.writeData(data);
         }
