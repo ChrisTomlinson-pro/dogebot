@@ -68,7 +68,7 @@ export default class PuppeteerClass
 
     async processText()
     {
-        const index = this.scrapedText.toLowerCase().indexOf('tesla');
+        const index = this.scrapedText.toLowerCase().indexOf('doge');
         if (index !== -1)
         {
             await this.parseBalance();
